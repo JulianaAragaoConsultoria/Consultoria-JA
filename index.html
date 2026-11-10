@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>JA Consultoria | Consultoria Financeira e Empresarial em São Paulo</title>
+  <meta name="description" content="Aumente seus lucros e faturamento com a JA Consultoria Empresarial. Precificação inteligente, redução de custos, valuation e planos de negócios em SP.">
+  <meta name="keywords" content="consultoria empresarial, consultoria financeira, precificação inteligente, valuation, plano de negócios, redução de custos, São Paulo">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:title" content="JA Consultoria | Aumente o Lucro do Seu Negócio">
+  <meta property="og:description" content="Agende uma conversa de 15 minutos sem compromisso e descubra quanto lucro sua empresa está deixando na mesa.">
+  <meta property="og:type" content="website">
+
+  <!-- Font Awesome para Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Schema.org Markup para SEO Local (Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "JA Consultoria Financeira e Empresarial",
+    "email": "msjulianaaragao@gmail.com",
+    "telephone": "+5511973195957",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "areaServed": "São Paulo-SP",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <style>
+    :root {
+      --primary-red: #D32F2F;
+      --dark-red: #9A0007;
+      --text-dark: #222222;
+      --bg-light: #F8F9FA;
+      --white: #FFFFFF;
+      --whatsapp-green: #25D366;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      color: var(--text-dark);
+      background-color: var(--bg-light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--white);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 15px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-text {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--primary-red);
+      letter-spacing: -1px;
+    }
+    
+    .logo-sub {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-dark);
+      letter-spacing: 2px;
+      font-weight: 700;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #111111 0%, #2a2a2a 100%);
+      color: var(--white);
+      padding: 80px 5% 60px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      color: var(--white);
+    }
+
+    .hero h1 span {
+      color: var(--primary-red);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 800px;
+      margin: 0 auto 30px;
+      color: #dddddd;
+    }
+
+    .btn-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background-color: var(--primary-red);
+      color: var(--white);
+      padding: 16px 32px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: transform 0.2s, background-color 0.2s;
+      box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4);
+    }
+
+    .btn-cta:hover {
+      background-color: var(--dark-red);
+      transform: translateY(-2px);
+    }
+
+    .features {
+      padding: 60px 5%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: var(--text-dark);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 30px;
+      border-radius: 12px;
+      border-left: 5px solid var(--primary-red);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      color: var(--text-dark);
+    }
+
+    .highlights {
+      background-color: var(--white);
+      padding: 60px 5%;
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .results-container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
+
+    .stat-box {
+      background: var(--bg-light);
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .stat-box .number {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--primary-red);
+    }
+
+    .disclaimer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #777;
+      margin-top: 25px;
+    }
+
+    .cta-banner {
+      background-color: var(--primary-red);
+      color: var(--white);
+      text-align: center;
+      padding: 50px 5%;
+    }
+
+    .cta-banner h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #111;
+      color: #bbb;
+      padding: 30px 5%;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    /* Botão Flutuante do WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 25px;
+      right: 25px;
+      background-color: var(--whatsapp-green);
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 32px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 1.8rem; }
+      .hero p { font-size: 1rem; }
+      .section-title { font-size: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <div class="logo-text">JA</div>
+      <span class="logo-sub">CONSULTORIA</span>
+    </div>
+    <a href="https://wa.me/5511973195957?text=Olá!%20Gostaria%20de%20agendar%20uma%20conversa%20inicial%20de%2015%20minutos." class="btn-cta" style="padding: 10px 20px; font-size: 0.9rem;">
+      <i class="fab fa-whatsapp"></i> Fazer Contato
+    </a>
+  </header>
+
+  <section class="hero">
+    <h1>ESTA É A NOSSA PROPOSTA PARA O SEU NEGÓCIO DECOLAR DE VEZ</h1>
+    <p>Quer descobrir quanto lucro sua empresa está deixando na mesa? Agende uma conversa inicial de 15 minutos sem compromisso por WhatsApp.</p>
+    <a href="https://wa.me/5511973195957?text=Olá!%20Gostaria%20de%20agendar%20uma%20conversa%20inicial%20de%2015%20minutos." class="btn-cta">
+      <i class="fab fa-whatsapp"></i> Agendar Conversa Sem Compromisso
+    </a>
+  </section>
+
+  <section class="features">
+    <h2 class="section-title">Soluções Completas para Sua Empresa e Patrimônio</h2>
+    <div class="grid">
+      <div class="card">
+        <h3><i class="fas fa-chart-line" style="color: var(--primary-red);"></i> Aumento de Lucro</h3>
+        <p>Precificação inteligente, estratégias para aumento de vendas e plano de redução de custos com foco na margem real.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-file-signature" style="color: var(--primary-red);"></i> Planos de Negócio</h3>
+        <p>Entenda os custos, riscos e possibilidades antes de investir. Acompanhamos do projeto aos primeiros ciclos.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-calculator" style="color: var(--primary-red);"></i> Valuation</h3>
+        <p>Avaliação precisa de estrutura, marca e dados contábeis para saber exatamente quanto vale o seu negócio para venda ou aquisição.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-home" style="color: var(--primary-red);"></i> Aquisição Patrimonial</h3>
+        <p>Compre imóveis ou veículos sem comprometer a saúde financeira. Descubra os menores custos e o momento ideal.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-piggy-bank" style="color: var(--primary-red);"></i> Educação Financeira</h3>
+        <p>Construção de patrimônio de forma segura e sustentável para garantir estabilidade e tranquilidade no futuro.</p>
+      </div>
+      <div class="card">
+        <h3><i class="fas fa-user-shield" style="color: var(--primary-red);"></i> 18 Anos de Experiência</h3>
+        <p>Equipe qualificada com valores acessíveis e foco total na valorização do seu investimento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="highlights">
+    <h2 class="section-title">Resultados Comprovados Por Nossos Clientes*</h2>
+    <div class="results-container">
+      <div class="stat-box">
+        <div class="number">Até 3X</div>
+        <p>Mais Lucro</p>
+      </div>
+      <div class="stat-box">
+        <div class="number">Até 4X</div>
+        <p>Mais Faturamento</p>
+      </div>
+      <div class="stat-box">
+        <div class="number">Cobertura</div>
+        <p>Total de custos em meses fracos</p>
+      </div>
+      <div class="stat-box">
+        <div class="number">12 Meses</div>
+        <p>Tempo médio de maturação dos resultados</p>
+      </div>
+    </div>
+    <p class="disclaimer">* Resultados baseados em casos reais de clientes atendidos. O desempenho financeiro pode variar de acordo com o segmento, gestão e dedicação de cada empresa.</p>
+  </section>
+
+  <section class="cta-banner">
+    <h2>Valorize o Seu Investimento</h2>
+    <p style="margin-bottom: 25px;">É menos do que você imagina e pode salvar o seu negócio!</p>
+    <a href="https://wa.me/5511973195957?text=Olá!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20a%20consultoria." class="btn-cta" style="background-color: var(--white); color: var(--primary-red);">
+      <i class="fab fa-whatsapp"></i> Falar Direto com a Consultora
+    </a>
+  </section>
+
+  <footer>
+    <p>JA Consultoria — São Paulo/SP</p>
+    <p>Contato: (11) 97319-5957 | E-mail: msjulianaaragao@gmail.com</p>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/5511973195957?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20conversa." class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+</body>
+</html>
